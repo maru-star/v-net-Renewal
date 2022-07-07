@@ -145,6 +145,32 @@ body {
   width: 80px;
   height: 80px;
 }
+.l-header__btn .box {
+  width: 40px;
+  margin: 0 auto;
+}
+.l-header__btn .box span {
+  width: 100%;
+  height: 6px;
+  background-color: #333333;
+  position: relative;
+  transition: ease 0.4s; /*ハンバーガーメニュークリック時の三本線の動きを遅延*/
+  display: block;
+}
+.l-header__btn .box span:nth-child(1) {
+  top: 0;
+}
+.l-header__btn .box span:nth-child(2) {
+  margin: 8px 0;
+}
+.l-header__btn .box span:nth-child(3) {
+  top: 0;
+}
+.l-header__btn .button-text {
+  font-size: 11px;
+  font-size: 1.1rem;
+  margin-top: 8px;
+}
 .l-header__right {
   display: flex;
   align-items: center;
@@ -177,6 +203,23 @@ body {
 }
 .l-header .contact-btn {
   margin: 0 30px;
+}
+
+.login-btn {
+  color: #6B8597;
+  display: block;
+  text-align: center;
+  color: #6B8597;
+  transition: 0.4s;
+  cursor: pointer;
+  min-width: 60px;
+}
+.login-btn:hover, .login-btn:active, .login-btn:focus {
+  color: #a7b6c1;
+}
+.login-btn__text {
+  font-size: 13px;
+  font-size: 1.3rem;
 }
 
 .l-global-container {

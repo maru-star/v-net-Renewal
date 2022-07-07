@@ -59,6 +59,10 @@
                 お問い合わせ
               </a>
           </div>
+            <a class="login-btn">
+              <img src="/assets/img/ico_login.svg" alt="ログイン">
+              <div class="login-btn__text">ログイン</div>
+            </a>
         </div>
       </div>
       <nav class="l-nav" id="js-nav">

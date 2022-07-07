@@ -1,6 +1,7 @@
 @use '../global/' as *;
 
 $hmbugerSize: 80px;
+$hmbugerBorderMargin: 8px;
 
 .l-header {
   @include fz(18);
@@ -31,6 +32,35 @@ $hmbugerSize: 80px;
     right: 0;
     width: $hmbugerSize;
     height: $hmbugerSize;
+
+    .box {
+      width: calc($hmbugerSize / 2);
+      margin: 0 auto;
+      span {
+        width: 100%;
+        height: 6px;
+        background-color: $black;
+        position: relative;
+        transition: ease .4s; /*ハンバーガーメニュークリック時の三本線の動きを遅延*/
+        display: block;
+        &:nth-child(1) {
+          top: 0;
+        }
+        
+        &:nth-child(2) {
+          margin: #{$hmbugerBorderMargin} 0;
+        }
+        
+        &:nth-child(3) {
+          top: 0;
+        }
+      }
+    }
+
+    .button-text {
+      @include fz(11);
+      margin-top: #{$hmbugerBorderMargin};
+    }
   }
 
 
@@ -71,4 +101,17 @@ $hmbugerSize: 80px;
     margin: 0 30px;
   }
 
+}
+
+.login-btn {
+  color: $deepGray;
+  display: block;
+  text-align: center;
+  @include link-color($deepGray);
+  cursor: pointer;
+  min-width: 60px;
+
+  &__text {
+    @include fz(13);
+  }
 }
