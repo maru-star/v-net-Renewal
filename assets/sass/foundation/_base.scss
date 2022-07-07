@@ -11,3 +11,7 @@ body {
     font-size: 1.6rem;
     letter-spacing: 0.1em;
 }
+
+a {
+    @include link-color($black);
+}

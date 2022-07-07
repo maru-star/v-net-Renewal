@@ -115,6 +115,13 @@ body {
   letter-spacing: 0.1em;
 }
 
+a {
+  color: #333333;
+}
+a:hover, a:active, a:focus {
+  color: #666666;
+}
+
 .l-header {
   font-size: 18px;
   font-size: 1.8rem;

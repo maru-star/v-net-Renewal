@@ -3,10 +3,20 @@
 
 // font-size指定の参考サイト
 // https://liginc.co.jp/web/html-css/css/64459#1remfont-size
-@mixin fz($size: 14) {
+@mixin fz($size: 16) {
 	font-size: $size + px;
 	font-size: ($size / 10)  + rem;
 }
 
 
+// リンクカラーのmixin参考
+// https://www.webcreatorbox.com/tech/sass-mixin#mixin2
 
+@mixin link-color($color) {
+  color: $color;
+  &:hover,
+  &:active,
+  &:focus {
+      color: lighten($color, 20%);
+  }
+}
