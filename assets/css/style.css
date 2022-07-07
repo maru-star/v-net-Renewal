@@ -115,6 +115,10 @@ body {
   letter-spacing: 0.1em;
 }
 
+.l-global-container {
+  overflow: hidden;
+}
+
 .btn {
   background-color: beige;
   color: red;
