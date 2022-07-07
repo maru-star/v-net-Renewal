@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="27.828" height="27.828" viewBox="0 0 27.828 27.828">
+  <g id="ico_search" transform="translate(-1720 -24)">
+    <line id="線_54" data-name="線 54" x2="9" y2="9" transform="translate(1736 40)" fill="none" stroke="#6b8597" stroke-linecap="round" stroke-width="4"/>
+    <g id="楕円形_46" data-name="楕円形 46" transform="translate(1720 24)" fill="#fff" stroke="#6b8597" stroke-width="4">
+      <circle cx="11.5" cy="11.5" r="11.5" stroke="none"/>
+      <circle cx="11.5" cy="11.5" r="9.5" fill="none"/>
+    </g>
+  </g>
+</svg>

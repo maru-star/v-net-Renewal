@@ -1,0 +1,12 @@
+@use "sass:math";
+
+
+// font-size指定の参考サイト
+// https://liginc.co.jp/web/html-css/css/64459#1remfont-size
+@mixin fz($size: 14) {
+	font-size: $size + px;
+	font-size: ($size / 10)  + rem;
+}
+
+
+

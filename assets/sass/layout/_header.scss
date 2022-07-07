@@ -1,1 +1,8 @@
 @use '../global/' as *;
+
+
+
+.l-header {
+  @include fz(18); 
+
+}

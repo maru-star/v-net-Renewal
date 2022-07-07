@@ -1,6 +1,25 @@
-@use '../global/' as *;
+@use '../global/'as *;
+
+
+// コンテンツに関する変数
+$contentPcWidth: 1500px;
+$contentSpWidth: 96%;
 
 
 .l-global-container {
   overflow: hidden;
+}
+
+
+
+.l-section {
+
+  &__inner {
+    max-width: $contentPcWidth;
+    margin: 0 auto;
+
+    @include sp {
+      width: $contentSpWidth;
+    }
+  }
 }

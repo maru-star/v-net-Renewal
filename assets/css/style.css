@@ -115,8 +115,23 @@ body {
   letter-spacing: 0.1em;
 }
 
+.l-header {
+  font-size: 18px;
+  font-size: 1.8rem;
+}
+
 .l-global-container {
   overflow: hidden;
+}
+
+.l-section__inner {
+  max-width: 1500px;
+  margin: 0 auto;
+}
+@media (min-width: 560px) {
+  .l-section__inner {
+    width: 96%;
+  }
 }
 
 .btn {

@@ -34,7 +34,7 @@
   <div class="l-global-container">
     <header class="l-header">
       <div class="l-header__container">
-        <div class="l-header__logo"><a href="/"><img src="/assets/img/common/logo.png" alt=""></a></div>
+        <h1 class="l-header__logo"><a href="/"><img src="/assets/img/logo.png" alt="V-NET 治験情報・参加支援"></a></h1>
         <button class="l-header__btn" id="js-header-button">
           <div class="box">
             <span></span><span></span><span></span>
@@ -42,12 +42,12 @@
         </button>
         <nav class="l-header__pcNav">
           <ul class="l-header__pcNav__list">
-            <li style="width:20%;"></li>
-            <li><a href="#intro">当校が考える、受験のポイント<span class="border">合格を目指す<br>皆さんへ</span></a></li>
-            <li><a href="#strategy">受験の挑み方がある！<span class="border middle">受験「攻略法」</span></a></li>
-            <li><a href="#support">大学も応援しています<span class="border middle">協賛大学</span></a></li>
-            <li><a href="#faq">受験のノウハウ<span class="border middle">一問一答！</span></a></li>
+            <li><a href="">治験を探す</a></li>
+            <li><a href="">治験を探す</a></li>
+            <li><a href="">治験を探す</a></li>
+            <li><a href="">治験を探す</a></li>
           </ul>
+          <div class="l-header__"></div>
         </nav>
       </div>
       <nav class="l-nav" id="js-nav">
@@ -79,10 +79,10 @@
         </div>
       </div>
       <section class="p-home-intro" id="intro">
-        <div class="l-container">
-          <h2 class="p-home-intro__title"><span class="inner"><img src="./assets/img/home/intro_title.svg" alt="夕陽丘予備校が考える、大学受験のポイント"><span>志望校合格を目指す皆さんへ</span></span></h2>
-          <p class="p-home-intro__text">大学進学を考えるにあたり、志望校が決まらない、何から始めればいいかわからない、学力に不安がある、失敗したらどうしよう…というのは当たり前のことです。<br> だからこそ、<span>一番の近道は「知っている人に聞くこと」</span>です。<br> 当校は70年の歴史のなかで、膨大な入試情報を蓄積し、数多くの生徒を送り出してきました。いわば、<span>「受験のプロ」</span>なのです。<br> 大学とのつながりを活かし、最新の傾向と対策、受験方法に関する情報を収集。<br> それをもとに、受験生が自信を持って入試に臨めるよう一人ひとりにフォーカスしたアドバイス行っています。<br> 一番身近にいる私たちの「知識」、「経験」をめいっぱいに活用してください！</p>
-          <p class="p-home-intro__catch">まずは私たちと一緒に<br class="u-pc-less"><span>受験へ挑む準備</span>、<br><span>その流れ</span>を<br class="u-pc-less">見ていきましょう！</p>
+        <div class="l-section__inner">
+          <h2 class="p-home-intro__title">テキストです。</h2>
+          <p class="p-home-intro__text"></p>
+          <p class="p-home-intro__catch"></p>
         </div>
         <a href="#strategy" class="p-home-intro__btn"></a>
       </section>
