@@ -146,4 +146,162 @@ a:hover, a:active, a:focus {
   color: red;
 }
 
+.u-italic {
+  font-style: italic;
+}
+
+.u-small-caps {
+  font-variant: small-caps;
+}
+
+.u-bold {
+  font-weight: bold;
+}
+
+.u-xx-small {
+  font-size: 60%;
+}
+
+.u-x-small {
+  font-size: 75%;
+}
+
+.u-small {
+  font-size: 88.88%;
+}
+
+.u-large {
+  font-size: 120%;
+}
+
+.u-x-large {
+  font-size: 150%;
+}
+
+.u-xx-large {
+  font-size: 200%;
+}
+
+.u-lh-100 {
+  line-height: 1;
+}
+
+.u-lh-125 {
+  line-height: 1.25;
+}
+
+.u-lh-150 {
+  line-height: 1.5;
+}
+
+.u-lh-175 {
+  line-height: 1.75;
+}
+
+.u-overline {
+  text-decoration: overline;
+}
+
+.u-underline {
+  text-decoration: underline;
+}
+
+.u-capitalize {
+  text-transform: capitalize;
+}
+
+.u-uppercase {
+  text-transform: uppercase;
+}
+
+.u-lowercase {
+  text-transform: lowercase;
+}
+
+/*  layout class */
+.u-indent {
+  text-indent: 1em;
+}
+
+.u-indent-back {
+  padding-left: 1em;
+  text-indent: -1em;
+}
+
+.u-text-left {
+  text-align: left;
+}
+
+.u-text-right {
+  text-align: right;
+}
+
+.u-text-center {
+  text-align: center;
+}
+
+.u-wbr {
+  display: inline-block;
+  white-space: nowrap;
+}
+
+.u-no-letter-spacing {
+  letter-spacing: 0;
+}
+
+.u-pointer {
+  cursor: pointer;
+}
+
+@media (min-width: 560px) {
+  .u-sp-only {
+    display: none;
+  }
+}
+
+.u-sp-more {
+  display: none;
+}
+@media (min-width: 560px) {
+  .u-sp-more {
+    display: block;
+  }
+}
+
+.u-tb-only {
+  display: block;
+}
+@media (min-width: 750px) {
+  .u-tb-only {
+    display: none;
+  }
+}
+
+.u-b-more {
+  display: none;
+}
+@media (min-width: 750px) {
+  .u-b-more {
+    display: block;
+  }
+}
+
+.u-pc-only {
+  display: none;
+}
+@media (min-width: 960px) {
+  .u-pc-only {
+    display: block;
+  }
+}
+
+.u-pc-less {
+  display: block;
+}
+@media (min-width: 960px) {
+  .u-pc-less {
+    display: none;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */

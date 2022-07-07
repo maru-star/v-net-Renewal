@@ -27,7 +27,7 @@
   <!-- JAVASCRIPT -->
 
 
-  <title>Vnetリニューアルテンプレート</title>
+  <title>V-netリニューアルテンプレート</title>
 </head>
 
 <body>
@@ -47,7 +47,10 @@
             <li><a href="">治験を探す</a></li>
             <li><a href="">治験を探す</a></li>
           </ul>
-          <div class="l-header__"></div>
+          <div class="l-header__tell">
+            <div>0120-979-815</div>
+            <div>10:00～18:00(平日)</div>
+          </div>
         </nav>
       </div>
       <nav class="l-nav" id="js-nav">
