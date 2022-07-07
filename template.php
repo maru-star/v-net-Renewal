@@ -48,9 +48,12 @@
             <li><a href="">治験を探す</a></li>
           </ul>
           <div class="l-header__tell">
-            <div>0120-979-815</div>
+            <div class="u-bold">0120-979-815</div>
             <div>10:00～18:00(平日)</div>
           </div>
+          <a class="l-header__contact" href="">
+            お問い合わせ
+          </a>
         </nav>
       </div>
       <nav class="l-nav" id="js-nav">

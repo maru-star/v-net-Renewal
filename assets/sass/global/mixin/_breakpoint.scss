@@ -7,37 +7,37 @@ $sp: 560px; // スマホ(iphone6)
 $xs: 320px; // スマホ(iphoneSE)
 
 @mixin xl {
-  @media (min-width: ($xl)) {
+  @media (max-width: ($xl)) {
     @content;
   }
 }
 @mixin lg {
-  @media (min-width: ($lg)) {
+  @media (max-width: ($lg)) {
     @content;
   }
 }
 @mixin ml {
-  @media (min-width: ($ml)) {
+  @media (max-width: ($ml)) {
     @content;
   }
 }
 @mixin pc {
-  @media (min-width: ($pc)) {
+  @media (max-width: ($pc)) {
     @content;
   }
 }
 @mixin tab {
-  @media (min-width: ($tab)) {
+  @media (max-width: ($tab)) {
     @content;
   }
 }
 @mixin tabIn {
-  @media (min-width: (768px)) {
+  @media (max-width: (768px)) {
     @content;
   }
 }
 @mixin sp {
-  @media (min-width: ($sp)) {
+  @media (max-width: ($sp)) {
     @content;
   }
 }
