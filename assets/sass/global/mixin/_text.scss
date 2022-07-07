@@ -11,9 +11,9 @@
 
 // リンクカラーのmixin参考
 // https://www.webcreatorbox.com/tech/sass-mixin#mixin2
-
 @mixin link-color($color) {
   color: $color;
+  transition: 0.4s;
   &:hover,
   &:active,
   &:focus {

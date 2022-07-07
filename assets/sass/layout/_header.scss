@@ -1,10 +1,18 @@
 @use '../global/' as *;
 
-
+$hmbugerSize: 80px;
 
 .l-header {
   @include fz(18);
   padding: 10px;
+  position: relative;
+
+  &__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: calc($hmbugerSize + 10px);
+  }
 
   &__logo {
     width: 180px;
@@ -17,10 +25,19 @@
     }
   }
 
-  &__container {
+  &__btn {
+    position: absolute;
+    z-index: 99;
+    right: 0;
+    width: $hmbugerSize;
+    height: $hmbugerSize;
+  }
+
+
+
+  &__right {
     display: flex;
     align-items: center;
-    justify-content: space-between;
   }
 
   &__pcNav {
@@ -29,7 +46,29 @@
     &__list {
       display: flex;
       align-items: flex-end;
+
+      li {
+        margin-right: 2em;
+      }
+
+      a {
+        @include link-color($black);
+      }
     }
+  }
+
+  &__tell {
+    font-weight: bold;
+    @include fz(30);
+  }
+
+  &__time {
+    font-size: 0.5em;
+    font-weight: normal;
+  }
+
+  .contact-btn {
+    margin: 0 30px;
   }
 
 }

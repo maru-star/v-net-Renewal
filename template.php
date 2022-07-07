@@ -39,22 +39,27 @@
           <div class="box">
             <span></span><span></span><span></span>
           </div>
+          <div class="button-text">MENU</div>
         </button>
-        <nav class="l-header__pcNav">
-          <ul class="l-header__pcNav__list">
-            <li><a href="">治験を探す</a></li>
-            <li><a href="">治験を探す</a></li>
-            <li><a href="">治験を探す</a></li>
-            <li><a href="">治験を探す</a></li>
-          </ul>
-          <div class="l-header__tell">
-            <div class="u-bold">0120-979-815</div>
-            <div>10:00～18:00(平日)</div>
+        <div class="l-header__right">
+          <nav class="l-header__pcNav">
+            <ul class="l-header__pcNav__list">
+              <li><a href="">治験を探す</a></li>
+              <li><a href="">治験とは</a></li>
+              <li><a href="">治験参加の流れ</a></li>
+              <li><a href="">ご利用ガイド</a></li>
+            </ul>
+            <div class="l-header__tell">
+              0120-979-815
+              <div class="l-header__time">10:00～18:00(平日)</div>
+            </div>
+          </nav>
+          <div class="contact-btn more-btn">
+              <a href="">
+                お問い合わせ
+              </a>
           </div>
-          <a class="l-header__contact" href="">
-            お問い合わせ
-          </a>
-        </nav>
+        </div>
       </div>
       <nav class="l-nav" id="js-nav">
         <div class="l-nav__container">
@@ -86,9 +91,12 @@
       </div>
       <section class="p-home-intro" id="intro">
         <div class="l-section__inner">
-          <h2 class="p-home-intro__title">テキストです。</h2>
-          <p class="p-home-intro__text"></p>
-          <p class="p-home-intro__catch"></p>
+          <h2 class="p-home-intro__title">ボタンパーツ</h2>
+          <div class="more-btn">
+            <a href="">
+            テキストです。テキストです。テキストです。テキストです。
+            </a>
+          </div>
         </div>
         <a href="#strategy" class="p-home-intro__btn"></a>
       </section>
